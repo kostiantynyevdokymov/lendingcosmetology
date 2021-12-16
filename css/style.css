@@ -1,4 +1,9 @@
 body {
-  background-color: rgba(245, 241, 241, 0.952);
-  color: fff;
+  font-family: Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
