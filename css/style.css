@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  background: rgb(206, 200, 200);
+  background: #cec8c8;
 }
 .list {
   list-style: none;
@@ -33,6 +33,8 @@ body {
 .about-me {
 }
 .about-me-btn {
+  background: #d7b0b0;
+  font-family: inherit;
 }
 /* ---individual skill--- */
 .indskill {
