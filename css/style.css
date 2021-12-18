@@ -1,9 +1,87 @@
 body {
   font-family: Roboto, sans-serif;
+  background: rgb(206, 200, 200);
 }
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+}
+.h2-title {
+}
+/* ----header---- */
+.header {
+}
+.header-logo {
+}
+.header-title {
+}
+.header-list {
+}
+.header-item {
+}
+.header-tel {
+}
+/* ----present page--- */
+.present-page {
+  background: #d7b0b0;
+}
+.p-present-page {
+}
+/* ------ about me--- */
+.about-me {
+}
+.about-me-btn {
+}
+/* ---individual skill--- */
+.indskill {
+  background: #d7b0b0;
+}
+.indskill-list {
+}
+.indskill-item {
+}
+/* --servies and price-- */
+.servies-price {
+}
+.servies-price-list {
+}
+.servies-price-item {
+}
+/* ----gallery--- */
+.gallery {
+  background: #d7b0b0;
+}
+.gallery-list {
+}
+.gallery-item {
+}
+/* ---cosmetics--- */
+.cosmetics {
+}
+.cosmetics-list {
+}
+.cosmetics-item {
+}
+/* ----footer----- */
+.footer {
+  background: #d7b0b0;
+}
+.footer-socialnetwork {
+}
+.socialnetwork-list-item {
+}
+.footer-main {
+}
+.footer-main-list {
+}
+.footer-main-item {
+}
+.address {
+  font-style: normal;
+}
+.address-list {
+}
+.address-item {
 }
