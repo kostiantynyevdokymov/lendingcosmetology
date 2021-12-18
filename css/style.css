@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  background: #cec8c8;
+  background: #eee9e9;
 }
 .list {
   list-style: none;
@@ -16,13 +16,13 @@ body {
 .header-logo {
 }
 .header-title {
-  font-family: Lobster;
-  font-weight: 500;
-  font-size: 30px;
+  font-family: Abril Fatface;
+  font-weight: 200;
+  font-size: 34px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
-  color: #212121;
+  color: #615e5e;
 }
 .header-list {
 }
