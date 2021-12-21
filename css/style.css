@@ -1,6 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Остальной код */
 body {
   font-family: Roboto, sans-serif;
   background: #eee9e9;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  padding: auto;
 }
 .list {
   list-style: none;
@@ -14,6 +25,8 @@ body {
 .header {
 }
 .header-logo {
+  display: flex;
+  justify-content: flex-start;
 }
 .header-title {
   font-family: Abril Fatface;
@@ -25,6 +38,7 @@ body {
   color: #615e5e;
 }
 .header-list {
+  justify-content: center;
 }
 .header-link {
   font-weight: 500;
