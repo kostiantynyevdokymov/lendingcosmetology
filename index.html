@@ -14,14 +14,13 @@
     <title class="title">Косметолог Ольга Евдокимова</title>
 </head>
 <body>
-    <div class="container">
+   
     <!--block header-->
     <header class="header">
-    <!--block present page-->
-    <section class="present-page">
-                    <!--link to homepage-->
-                    <a class="link header-logo" href="/">
-                        <h1 class="header-title">Dr.Olga Evdokymova</h1>
+         <div class="container header-container">
+        <!--link to homepage-->
+        <a class="link header-logo" href="/">
+        <h1 class="header-title">Dr.Olga Evdokymova</h1>
         <!--block navigation page-->
         <nav>
             <ul class="list header-list">
@@ -31,28 +30,40 @@
                 <li class="header-item"><a class="link header-link" href="#FAQ">FAQ</a></li>
             </ul>
         </nav> 
-        <p class="p-present-page">Подтянутая и ухоженная кожа составляющая Вашего успеха</p>
-        <img src="./images/beautyskin shiny diamond: pexels.jpg" alt="фото лица девушки" width="400">
-       
-    </section>   
-     <section>
-        <h2 class="h2-title">Ольга Евдокимова косметолог в Харькове</h2>
-        <!--block contact-->
-        <a class="link header-tel" href="tel:+380935249025">0935249025</a>
-        <img src="./images/pipeoil pexels-jill-burrow.jpg" alt="пипетка с маслом" width="400">
-            </a>
-          
-    </section>
+    <!--block contact-->
+             <ul class="list header-list">
+                <li><a class="link header-tel" href="tel:+380935249025">0935249025</a></li>
+            </ul> 
+        </div>  
     </header>
     <main>
+
+    <!-- present page-->
+                <div class="container present-container">
+                    <ul class="list present-list">
+                        <li class="present-item1">
+                        <p class="p-present-page">Подтянутая и ухоженная кожа составляющая Вашего успеха</p>
+                        <img src="./images/beautyskin shiny diamond: pexels.jpg" alt="фото лица девушки" width="400">
+                        </li>
+                        <li class="present-item2">
+                        <h2 class="h2-title">Ольга Евдокимова косметолог в Харькове</h2>
+                        <img src="./images/pipeoil pexels-jill-burrow.jpg" alt="пипетка с маслом" width="400">
+                        </a>
+                        </li>
+                    </ul>
+                </div> 
+           
             <!--block about me-->
-        <section id="Обо мне" class="about-me">
-            <h2 class="h2-title" >Обо мне</h2>
-            <img src="./images/devushkanalodke.jpg" alt="фото в рвбочем кабинете" width="400">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi recusandae voluptas amet, exercitationem doloribus tenetur expedita? Delectus laboriosam illo explicabo dolorem quae mollitia asperiores, quam ea corrupti tempora nesciunt quod.</p>
-            <button name="button" class="about-me-btn">записаться на бесплатную консультацию</button>
-        </section>
+        <div class="container">
+            <section id="Обо мне" class="about-me">
+                <h2 class="h2-title" >Обо мне</h2>
+                <img src="./images/devushkanalodke.jpg" alt="фото в рвбочем кабинете" width="400">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi recusandae voluptas amet, exercitationem doloribus tenetur expedita? Delectus laboriosam illo explicabo dolorem quae mollitia asperiores, quam ea corrupti tempora nesciunt quod.</p>
+                <button name="button" class="about-me-btn">записаться на бесплатную консультацию</button>
+            </section>
+        </div>
         <!--block individual skill-->
+        <div class="container">
             <section class="indskill">
             <h2 class="h2-title">почему выбирают именно меня?</h2>
                 <ul class="list indskill-list">
@@ -87,43 +98,52 @@
                     </li>
                 </ul>
             </section>
+        </div>
     <!--block servies and price-->  
-    <section id="услуги" class="servies-price">
-        <img src="./images/cosmapp2.jpg" alt="Woman фото" width="400"> 
-        <h2 class="h2-title">Услуги</h2>
-         <ul class="list servies-price-list">
-            <li class="servies-price-item">чистка лица</li>
-            <li class="servies-price-item">пилинги</li>
-            <li class="servies-price-item">уходовые процедуры</li>
-            <li class="servies-price-item">маски по типу кожи</li>
-            <li class="servies-price-item">микротоки</li>
-            <li class="servies-price-item">ботулинотерапия</li>
-            <li class="servies-price-item">иньекционная контурная пластика лица</li>
-            <li class="servies-price-item">антиэйджинговые программы</li>
-        </ul>
-    </section>
+    <div class="container">
+        <section id="услуги" class="servies-price">
+            <img src="./images/cosmapp2.jpg" alt="Woman фото" width="400"> 
+            <h2 class="h2-title">Услуги</h2>
+            <ul class="list servies-price-list">
+                <li class="servies-price-item">чистка лица</li>
+                <li class="servies-price-item">пилинги</li>
+                <li class="servies-price-item">уходовые процедуры</li>
+                <li class="servies-price-item">маски по типу кожи</li>
+                <li class="servies-price-item">микротоки</li>
+                <li class="servies-price-item">ботулинотерапия</li>
+                <li class="servies-price-item">иньекционная контурная пластика лица</li>
+                <li class="servies-price-item">антиэйджинговые программы</li>
+            </ul>
+        </section>
+    </div>
     <!--block gallery-->
-    <section class="gallery">
-        <h2 class="h2-title">мои работы</h2>
-        <ul class="list gallery-list">
-            <li class="gallery-item"><img src="./images/uvelichenie-gub-2.jpg" alt="увеличние губ" width="200"></li>
-            <li class="gallery-item"><img src="./images/skuli.jpg" alt="коррекция губ и скул" width="200"></li>
-            <li class="gallery-item"><img src="./images/kuperos.jpg" alt="лечение купероза" width="200"></li>
-            <li class="gallery-item"><img src="./images/pamyatka-botoks-1.jpg" alt="ботокс" width="200"></li>
-        </ul>
-    </section>
+    <div class="container">
+        <section class="gallery">
+            <h2 class="h2-title">мои работы</h2>
+            <ul class="list gallery-list">
+                <li class="gallery-item"><img src="./images/uvelichenie-gub-2.jpg" alt="увеличние губ" width="200"></li>
+                <li class="gallery-item"><img src="./images/skuli.jpg" alt="коррекция губ и скул" width="200"></li>
+                <li class="gallery-item"><img src="./images/kuperos.jpg" alt="лечение купероза" width="200"></li>
+                <li class="gallery-item"><img src="./images/pamyatka-botoks-1.jpg" alt="ботокс" width="200"></li>
+            </ul>
+        </section>
+    </div>
     <!--block cosmetics-->
-    <section class="cosmetics">
-        <h2 class="h2-title">косметика, которую я использую</h2>
-        <ul class="list cosmetics-list">
-            <li class="cosmetics-item"><img src="./images/logo/gigilab.png" alt="гигилаб" width="200"></li>
-            <li class="cosmetics-item"><img src="./images/logo/janssencosmetics-logo-pantone.png" alt="янсенкосметик" width="200"></li>
-            <li class="cosmetics-item"><img src="./images/logo/martinex.png" alt="мартинекс" width="200"></li>
-            <li class="cosmetics-item"><img src="./images/logo/mesaltera.png" alt="месалтера" width="200"></li>
-        </ul>
-    </section>
+    <div class="container">
+        <section class="cosmetics">
+            <h2 class="h2-title">косметика, которую я использую</h2>
+            <ul class="list cosmetics-list">
+                <li class="cosmetics-item"><img src="./images/logo/gigilab.png" alt="гигилаб" width="200"></li>
+                <li class="cosmetics-item"><img src="./images/logo/janssencosmetics-logo-pantone.png" alt="янсенкосметик" width="200"></li>
+                <li class="cosmetics-item"><img src="./images/logo/martinex.png" alt="мартинекс" width="200"></li>
+                <li class="cosmetics-item"><img src="./images/logo/mesaltera.png" alt="месалтера" width="200"></li>
+            </ul>
+        </section>
+    </div>
     </main>
-    <footer class="footer">
+   
+    <footer class="footer"> 
+        <div class="container">
         <section class="footer-socialnetwork">
             <a class="link footer-logo"  href="/"><h1 class="header-title">Dr.Olga Evdokymova</h1></a>
             <p>Профессиональный косметолог в Харькове</p>
@@ -156,7 +176,8 @@
                 </ul>
             </address>
         </section>
+        </div>
     </footer>
-    </div>
+    
 </body>
 </html>

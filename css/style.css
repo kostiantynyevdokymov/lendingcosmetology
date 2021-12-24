@@ -1,8 +1,24 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+img {
+  display: block;
+}
+
 /* Остальной код */
 body {
   font-family: Roboto, sans-serif;
@@ -10,8 +26,9 @@ body {
 }
 .container {
   width: 1200px;
-  margin: auto;
-  padding: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .list {
   list-style: none;
@@ -24,46 +41,87 @@ body {
 /* ----header---- */
 .header {
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: #d7b0b0;
+}
 .header-logo {
   display: flex;
-  justify-content: flex-start;
 }
 .header-title {
   font-family: Abril Fatface;
   font-weight: 200;
-  font-size: 34px;
+  font-size: 32px;
   line-height: 1.36;
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #615e5e;
+  padding-left: 50px;
 }
 .header-list {
+  display: flex;
   justify-content: center;
+  margin-left: 100px;
 }
 .header-link {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 0.87;
   letter-spacing: 0.02em;
   color: #212121;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .header-link:hover,
 .header-link:focus {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 0.87;
   letter-spacing: 0.02em;
   color: #6f5f9c;
 }
 .header-item {
+  margin-left: 30px;
 }
 .header-tel {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-tel:hover,
+.header-tel:focus {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #6f5f9c;
 }
 /* ----present page--- */
+.present-container {
+  display: flex;
+}
+
 .present-page {
   background: #d7b0b0;
 }
+.present-list {
+  display: flex;
+  background-color: #d7b0b0;
+}
 .p-present-page {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.present-item1 {
+}
+.present-item2 {
 }
 /* ------ about me--- */
 .about-me {
@@ -77,8 +135,16 @@ body {
   background: #d7b0b0;
 }
 .indskill-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 .indskill-item {
+  width: 400px;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background: #d7b0b0;
+  border: 1px solid #eeeeee;
 }
 /* --servies and price-- */
 .servies-price {
