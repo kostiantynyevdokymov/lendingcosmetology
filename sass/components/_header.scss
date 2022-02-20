@@ -2,7 +2,7 @@
   &-container {
     display: flex;
     align-items: center;
-    background-color: #d7b0b0;
+    background-color: var(--bgcolor1);
   }
   &__logo {
     display: flex;
