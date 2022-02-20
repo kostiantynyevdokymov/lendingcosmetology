@@ -23,7 +23,7 @@
         <a class="link header__logo" href="/">
         <h1 class="header__title">Dr.Olga Evdokymova</h1>
         <!--block navigation page-->
-        <nav>
+        <nav class="header__nav">
             <ul class="list header__list">
                 <li class="header__item"><a class="link header__link" href="#обо мне">Обо мне</a></li>
                 <li class="header__item"><a class="link header__link" href="#услуги">Услуги</a></li>
@@ -32,19 +32,53 @@
             </ul>
         </nav> 
     <!--block contact-->
+        <div class="header__contact">
              <ul class="list header__list">
                 <li><a class="link header__tel" href="tel:+380935249025">0935249025</a></li>
             </ul> 
-        </div>  
+        </div>
+            <button type="button" class="header__menu_open_btn" data-menu-open>
+                <svg width="40px" height="40px">
+                    <use href="./images/symbol-defs.svg#icon-menu"></use>
+                </svg>
+            </button>
+        </div> 
+        <!--mob menu-->
+        <div class="mob__menu is-hidden" data-menu>
+            <div class="container container_mob">
+                <button type="button" class="header__menu_close_btn" data-menu-close>
+                    <svg width="40px" height="40px">
+                        <use href="./images/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <div class="mob__menu-top">
+                    <ul class="list header__list-tel">
+                        <li class="header__item-tel"><a class="link header__link-tel header__link-tel--current"
+                                href="./index.html">Обо мне</a></li>
+                        <li class="header__item-tel"><a class="link header__link-tel" href="">Услуги</a></li>
+                        <li class="header__item-tel"><a class="link header__link-tel" href="">Отзывы</a></li>
+                        <li class="header__item-tel"><a class="link header__link-tel" href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="mob__menu-bottom">
+                    <div class="header-contact-tel">
+                        <ul class="list header-contact-tel__list">
+                            <li class="header-contact-tel__item">
+                                <a class="link header__link-contact-tel" href="tel:+380935249025">0935249025
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
     </header>
     <main>
 
     <!-- present page-->
-                <div class="container present-container">
+                <!-- <div class="container present-container">
                     <ul class="list present-list">
                         <li class="present-item1">
                         <p class="p-present-page">Подтянутая и ухоженная кожа составляющая Вашего успеха</p>
-                        <!-- <img src="./images/beautyskin shiny diamond: pexels.jpg" alt="фото лица девушки" width="400"> -->
+                        <img src="./images/beautyskin shiny diamond: pexels.jpg" alt="фото лица девушки" width="400">
                         </li>
                         <li class="present-item2">
                         <h2 class="h2-title">Ольга Евдокимова косметолог в Харькове</h2>
@@ -52,19 +86,19 @@
                         </a>
                         </li>
                     </ul>
-                </div> 
+                </div>  -->
            
             <!--block about me-->
-        <div class="container">
+        <!-- <div class="container">
             <section id="Обо мне" class="about-me">
                 <h2 class="h2-title" >Обо мне</h2>
                 <img src="./images/devushkanalodke.jpg" alt="фото в рвбочем кабинете" width="400">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi recusandae voluptas amet, exercitationem doloribus tenetur expedita? Delectus laboriosam illo explicabo dolorem quae mollitia asperiores, quam ea corrupti tempora nesciunt quod.</p>
                 <button name="button" class="about-me-btn">записаться на бесплатную консультацию</button>
             </section>
-        </div>
+        </div> -->
         <!--block individual skill-->
-        <div class="container">
+        <!-- <div class="container">
             <section class="indskill">
             <h2 class="h2-title">почему выбирают именно меня?</h2>
                 <ul class="list indskill-list">
@@ -99,9 +133,9 @@
                     </li>
                 </ul>
             </section>
-        </div>
+        </div> -->
     <!--block servies and price-->  
-    <div class="container">
+    <!-- <div class="container">
         <section id="услуги" class="servies-price">
             <img src="./images/cosmapp2.jpg" alt="Woman фото" width="400"> 
             <h2 class="h2-title">Услуги</h2>
@@ -116,9 +150,9 @@
                 <li class="servies-price-item">антиэйджинговые программы</li>
             </ul>
         </section>
-    </div>
+    </div> -->
     <!--block gallery-->
-    <div class="container">
+    <!-- <div class="container">
         <section class="gallery">
             <h2 class="h2-title">мои работы</h2>
             <ul class="list gallery-list">
@@ -128,9 +162,9 @@
                 <li class="gallery-item"><img src="./images/pamyatka-botoks-1.jpg" alt="ботокс" width="200"></li>
             </ul>
         </section>
-    </div>
+    </div> -->
     <!--block cosmetics-->
-    <div class="container">
+    <!-- <div class="container">
         <section class="cosmetics">
             <h2 class="h2-title">косметика, которую я использую</h2>
             <ul class="list cosmetics-list">
@@ -140,10 +174,10 @@
                 <li class="cosmetics-item"><img src="./images/logo/mesaltera.png" alt="месалтера" width="200"></li>
             </ul>
         </section>
-    </div>
+    </div> -->
     </main>
    
-    <footer class="footer"> 
+    <!-- <footer class="footer"> 
         <div class="container">
         <section class="footer-socialnetwork">
             <a class="link footer-logo"  href="/"><h1 class="header-title">Dr.Olga Evdokymova</h1></a>
@@ -178,7 +212,8 @@
             </address>
         </section>
         </div>
-    </footer>
-    
+    </footer> -->
+    <script src="./js/menu.js">
+    </script>
 </body>
 </html>
