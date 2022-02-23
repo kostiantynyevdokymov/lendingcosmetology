@@ -612,4 +612,64 @@ img {
 .header__menu_close_btn:hover, .header__menu_close_btn:focus {
   fill: var(--colorhover);
 }
+
+.present {
+  height: 100vh;
+  background-image: url(../images/beautyskin/beautyskin_mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .present {
+    background-image: url(../images/beautyskin/beautyskin_tab.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .present {
+    background-image: url(/images/beautyskin/beautyskin_desc.jpg);
+  }
+}
+
+.present__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: var(--textcolor1);
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  .present__text {
+    width: 350px;
+    font-size: 32px;
+  }
+}
+
+.present__button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  color: var(--textcolor1);
+  background: transparent;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 50px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.present__button:hover, .present__button:focus {
+  background: #dfa098;
+}
 /*# sourceMappingURL=main.css.map */
