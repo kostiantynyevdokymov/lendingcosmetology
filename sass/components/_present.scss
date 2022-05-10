@@ -18,8 +18,10 @@
     color: var(--textcolor1);
     text-align: right;
     @media screen and (min-width: 768px) {
-      width: 350px;
       font-size: 32px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
     }
   }
   &__button {
@@ -41,6 +43,12 @@
     &:hover,
     &:focus {
       background: #dfa098;
+    }
+    @media screen and (min-width: 768px) {
+      left: 60%;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
     }
   }
 }
